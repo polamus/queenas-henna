@@ -67,6 +67,6 @@ class Api::V1::CommentsController < ApplicationController
       params.require(:list).permit(:author, :text, :rating)
       # params.permit(:comment).permit('author', 'text')
     end
-end
+
 
 end
